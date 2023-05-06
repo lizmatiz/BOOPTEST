@@ -17,8 +17,8 @@
 #include <iostream>
 #include <string>
 #include <queue>
-#include <chrono>
-#include <thread>
+//#include <chrono>
+//#include <thread>
 
 
 namespace main_savitch_14{
@@ -50,7 +50,7 @@ namespace main_savitch_14{
     }
 
     void Boop::display_status() const{
-        std::this_thread::sleep_for(std::chrono::nanoseconds(100));
+        //std::this_thread::sleep_for(std::chrono::nanoseconds(100));
         if(next_mover() == HUMAN){
             cout << endl << endl << "Human's turn!" << endl;
         }
