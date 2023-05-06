@@ -173,7 +173,7 @@ namespace main_savitch_14{
                  * 
                  * @return std::string the user move
                  */
-                std::string get_user_move( ) const;
+                //std::string get_user_move( ) const;
 
                 /**
                  * @brief returns a clone of the game

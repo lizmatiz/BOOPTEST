@@ -4543,6 +4543,7 @@ namespace main_savitch_14{
         }
      }
 
+    /*
     std::string Boop::get_user_move( ) const
     {
 		std::string answer;
@@ -4564,6 +4565,6 @@ namespace main_savitch_14{
         }
         return "";
     }
-
+*/
 
 }
